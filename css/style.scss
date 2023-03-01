@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../back3.png");
+  background-position: center center;
+  object-fit: cover;
+
+  font-family: "Shantell Sans", cursive;
+
+  color: #fff;
+
+  position: relative;
+
+  min-height: 100vh;
+}
+img {
+  width: 100%;
+}
+
+@import "container";
+@import "loading";
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@import "nav";
+@import "cards";
+@import "single";
